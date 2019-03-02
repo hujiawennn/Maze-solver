@@ -18,4 +18,9 @@ If there are more than one dots exist in the maze, the heuristic function is com
 The sum of h1 and h2 is the heuristic function for multiple dots.
 
 There is a maze layout called "bigDots" provided by instructors as an extra challenge for students. We solved the bigDots maze by implementing greedy search algorithm mainly. By using the greedy search function for single-dot maze as a helper function, we solved the maze by resetting the start and end for the inputs of the helper function. In other words, the ending point will become the starting point in the next turn and the ending point will be the closest point next to the starting point. Except the initial starting point, all the other “start” and “end” were chosen from the set of remaining dots that were not reached yet. What’s more, the way we decide what is the next node to go is different from the greedy search algorithm. We add up the path length already travelled (g) and the actual distance (using the helper function from A* search algorithm). This search algorithm is very fast when dealing with multiple dots situation, compared to A* search algorithm.
+
+1. Example of BFS solving one-dot maze.
 ![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.23.10%20PM.png)
+
+2. Example o DFS solving one-dot mazes.
+![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.24.33%20PM.png)
