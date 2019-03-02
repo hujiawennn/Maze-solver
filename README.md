@@ -22,5 +22,17 @@ There is a maze layout called "bigDots" provided by instructors as an extra chal
 1. Example of BFS solving one-dot maze.
 ![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.23.10%20PM.png)
 
-2. Example o DFS solving one-dot mazes.
+2. Example of DFS solving one-dot maze.
 ![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.24.33%20PM.png)
+
+3. Example of Greedy solving one-dot maze.
+![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.25.46%20PM.png)
+
+4. Example of A* solving one-dot maze.
+![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.25.55%20PM.png)
+
+5. Example of A* solving multiple-dot maze.
+![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.26.16%20PM.png)
+
+6. Example of improved algorithm solving multiple-dot maze.
+![atl text](https://github.com/hujiawennn/Maze-solver/blob/master/Screen%20Shot%202019-03-01%20at%209.26.23%20PM.png)
